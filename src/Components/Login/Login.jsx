@@ -25,7 +25,7 @@ const Login = () => {
     .catch(error=> console.log(error))
     }
     return (
-        <div className="mx-[100px] my-[70px]">
+        <div className="lg:mx-[100px] my-[70px]">
            <div className="hero min-h-screen bg-base-200">
   <div className="hero-content flex-col lg:flex-row">
     <div className=" w-1/2 ">
@@ -60,7 +60,7 @@ const Login = () => {
       <FcGoogle className='text-2xl' />
       </div>
 
-      <p className='text-center mb-[16px]'>Have an account <Link to='/singUp'><btn className='text-[#FF3811] font-bold'>SingUP</btn></Link></p>
+      <p className='text-center mb-[16px]'>Have an account <Link to='/signUp'><btn className='text-[#FF3811] font-bold'>SingUP</btn></Link></p>
     </div>
   </div>
 </div> 

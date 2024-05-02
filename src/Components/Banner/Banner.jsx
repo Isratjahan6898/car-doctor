@@ -7,7 +7,7 @@ import img6 from '../../assets/images/banner/6.jpg'
 
 const Banner = () => {
     return (
-        <div className="mt-[100px] mx-[70px]">
+        <div className="mt-[100px] lg:mx-[70px]">
             <div className="carousel w-full h-[500px]">
   <div id="slide1" className="carousel-item relative w-full">
     <img src={img1} className="w-full rounded-lg" />
@@ -16,7 +16,7 @@ const Banner = () => {
 
     <div className='w-1/3 ml-[80px] mt-[70px]'>
 
-        <h1 className='text-white text-5xl font-bold my-[30px]'>Affordable Price For Car Servicing</h1>
+        <h1 className='text-white lg:text-5xl font-bold my-[30px]'>Affordable Price For Car Servicing</h1>
         <p className='text-white my-[25px]'>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
 
         <div>

@@ -3,7 +3,7 @@
 
 const About = () => {
     return (
-        <div className="mt-[60px] mx-[100px]">
+        <div className="mt-[60px] lg:mx-[70px]">
             <div className="hero min-h-screen bg-base-200">
   <div className="hero-content flex-col lg:flex-row">
     <div className='lg:w-1/2 relative'>

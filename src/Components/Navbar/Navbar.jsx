@@ -5,7 +5,7 @@ import { FaRegClipboard } from "react-icons/fa";
 
 const Navbar = () => {
     return (
-        <div className='mx-[70px] mt-[60px]'>
+        <div className='lg:mx-[70px] lg:mt-[60px]'>
             <div className="navbar bg-base-100">
   <div className="navbar-start">
     <div className="dropdown">
@@ -33,7 +33,7 @@ const Navbar = () => {
        <p><NavLink to='/contact' className={(isActive)=>isActive? 'text-[#FF3811] font-bold':'font-bold'}>Contact</NavLink></p>
     </ul>
   </div>
-  <div className="navbar-end"> 
+  <div className="mr-[60px] mt-[170px] lg:navbar-end lg:mt-[0px]"> 
   <FaRegClipboard className='mr-[10px] text-2xl' />     
   <IoSearch className='mr-[10px] text-2xl' />
     <btn className="btn text-[#FF3811] font-semibold text-lg border-[#FF3811] bg-white">Appointment</btn>

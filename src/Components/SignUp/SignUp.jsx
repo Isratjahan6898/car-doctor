@@ -27,7 +27,7 @@ const SignUp = () => {
       }
     return (
         <div>
-             <div className="mx-[100px] my-[70px]">
+             <div className="lg:mx-[100px] my-[70px]">
            <div className="hero min-h-screen bg-base-200">
   <div className="hero-content flex-col lg:flex-row">
     <div className=" w-1/2 ">
